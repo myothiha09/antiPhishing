@@ -10,6 +10,7 @@ need support for lower resolution screen(layout files)
 More Functions.
 -a new webpage to describe phishing
 -a counter to keep track of how many got phished/educated
+-save user's username and passwd in a text file on the user's device?
 
 Questions:
 Different logo as phishbook or same logo as fb?
