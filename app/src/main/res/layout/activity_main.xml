@@ -39,6 +39,7 @@
         android:layout_alignLeft="@+id/emailBox"
         android:layout_alignStart="@+id/emailBox"
         android:hint="Password"
+        android:inputType="textPassword"
         android:textColorHint="#B2BDD6"
         android:background="#3d5b98"
         android:textColor="#ffffff"
