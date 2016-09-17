@@ -8,11 +8,11 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="codeffine.myo.antiphishing.MainActivity"
-    android:background="#3b4197">
+    android:background="#3B5A97">
 
     <ImageView
-        android:layout_width="75dp"
-        android:layout_height="75dp"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
         android:id="@+id/imageView"
         android:src="@drawable/facebook_inverted"
         android:background="#fcfcfc"
@@ -27,7 +27,9 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="208dp"
         android:hint="Email or Phone"
-        android:textColorHint="#3B5A97" />
+        android:textColorHint="#B2BDD6"
+        android:background="#3d5b98"
+        android:textColor="#ffffff" />
 
     <EditText
         android:layout_width="match_parent"
@@ -37,40 +39,48 @@
         android:layout_alignLeft="@+id/emailBox"
         android:layout_alignStart="@+id/emailBox"
         android:hint="Password"
-        android:textColorHint="#3B5A97" />
+        android:textColorHint="#B2BDD6"
+        android:background="#3d5b98"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp" />
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="45dp"
         android:text="Login"
         android:id="@+id/loginButton"
         android:layout_marginTop="25dp"
-        android:background="#b04c51a5"
+        android:background="#506AA3"
         android:layout_below="@+id/passwordBox"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:textColor="#9EADCB" />
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textAppearance="?android:attr/textAppearanceSmall"
         android:text="Forgotten password?"
         android:textColor="#ffffff"
         android:id="@+id/forgotPasswordButton"
         android:layout_below="@+id/loginButton"
         android:layout_centerHorizontal="true"
-        android:onClick="onClick" />
+        android:onClick="onClick"
+        android:layout_marginTop="10dp" />
 
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Create a new Facebook Account"
+        android:text="CREATE NEW FACEBOOK ACCOUNT"
         android:id="@+id/newAccountButton"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:background="#3d4398"
-        android:onClick="onClick" />
+        android:background="#3B5A97"
+        android:onClick="onClick"
+        android:textColor="#ffffff"
+        android:layout_marginBottom="20dp"
+        android:singleLine="false" />
 
     <WebView
         android:layout_width="wrap_content"

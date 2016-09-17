@@ -1,11 +1,11 @@
 package codeffine.myo.antiphishing;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.Activity;
 import android.os.Bundle;
 import android.view.View;
 import android.webkit.WebView;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends Activity implements View.OnClickListener {
 
     WebView webView;
 
@@ -23,9 +23,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         if (id == R.id.newAccountButton) {
             webView.loadUrl("https://www.facebook.com/r.php");
-        } else if (id == R.id.loginButton) {
-            webView.loadUrl("http://codeffine.weebly.com/techfeed/vulnerabilities-and-pitfalls-of-the-tech-sector-in-myanmar");
-        } else if (id == R.id.forgotPasswordButton) {
+        }
+        if (id == R.id.loginButton) {
+            webView.loadUrl("http://www.codeffine.weebly.com/techfeed/vulnerabilities-and-pitfalls-of-the-tech-sector-in-myanmar");
+        }
+
+        if (id == R.id.forgotPasswordButton) {
             webView.loadUrl("https://www.facebook.com/login/identify");
         }
 
