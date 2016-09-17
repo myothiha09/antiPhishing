@@ -22,14 +22,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
         int id = v.getId();
 
         if (id == R.id.newAccountButton) {
-            webView.loadUrl("https://www.facebook.com/r.php");
+            webView.loadUrl("http://www.codeffine.weebly.com/techfeed/vulnerabilities-and-pitfalls-of-the-tech-sector-in-myanmar");
         }
         if (id == R.id.loginButton) {
             webView.loadUrl("http://www.codeffine.weebly.com/techfeed/vulnerabilities-and-pitfalls-of-the-tech-sector-in-myanmar");
         }
 
         if (id == R.id.forgotPasswordButton) {
-            webView.loadUrl("https://www.facebook.com/login/identify");
+            webView.loadUrl("http://www.codeffine.weebly.com/techfeed/vulnerabilities-and-pitfalls-of-the-tech-sector-in-myanmar");
         }
 
     }
