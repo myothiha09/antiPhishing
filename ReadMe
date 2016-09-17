@@ -10,3 +10,7 @@ need support for lower resolution screen(layout files)
 More Functions.
 -a new webpage to describe phishing
 -a counter to keep track of how many got phished/educated
+
+Questions:
+Different logo as phishbook or same logo as fb?
+Should webview load the page internally or externally?
